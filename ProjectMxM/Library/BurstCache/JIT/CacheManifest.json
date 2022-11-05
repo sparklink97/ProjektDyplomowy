@@ -1,0 +1,119 @@
+{
+  "BurstVersion": "9b99a8d2-6a5f-43d4-ad10-97789969a537",
+  "Assemblies": [
+    {
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-11-05T18:29:22.0429332Z"
+    },
+    {
+      "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "LastWriteTime": "2020-09-09T08:00:04Z"
+    },
+    {
+      "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2020-09-09T08:00:04Z"
+    },
+    {
+      "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2020-09-09T08:04:36Z"
+    },
+    {
+      "FullName": "Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-11-05T18:29:26.6547129Z"
+    },
+    {
+      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2020-09-09T08:00:04Z"
+    },
+    {
+      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-11-05T18:29:23.5303246Z"
+    },
+    {
+      "FullName": "Unity.Jobs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-11-05T18:29:25.1658355Z"
+    }
+  ],
+  "Functions": [
+    {
+      "FullName": "System.Int32 Unity.Burst.Intrinsics.X86::DoGetCSRTrampoline()",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "dd721de38e8312857c3ae42423d7dc32",
+      "LinkName": "CDCA4A5193BE5947",
+      "AssemblyDependencyIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "4bd4cba251f72f7117c58009830b2253",
+      "LinkName": "801E9A000BB37B05",
+      "AssemblyDependencyIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobExtensions/JobStruct`1<MxM.TrajectoryGeneratorJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "addf9b46d4d583dbc3f413d99a49da25",
+      "LinkName": "10322650D55D2415",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        5,
+        2,
+        6,
+        1
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForBatchExtensions/JobParallelForBatchProducer`1<MxM.ComputeTrajectory05Costs>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "e19c8bc4766a8fe5de6ae0acd005c3aa",
+      "LinkName": "514AD48161A25BC5",
+      "AssemblyDependencyIndices": [
+        7,
+        4,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForBatchExtensions/JobParallelForBatchProducer`1<MxM.FindMinima>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "039339409df072f7d4ba23660e64e336",
+      "LinkName": "3820543BC70335E7",
+      "AssemblyDependencyIndices": [
+        7,
+        4,
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForBatchExtensions/JobParallelForBatchProducer`1<MxM.ComputePose05Costs_VelCost>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "c8d89ee9a3f44d7576e2197cb05c24d3",
+      "LinkName": "E637B27E04B17B50",
+      "AssemblyDependencyIndices": [
+        7,
+        4,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    }
+  ]
+}
